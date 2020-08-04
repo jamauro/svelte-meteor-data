@@ -10,7 +10,7 @@ Package.onUse(function(api) {
   api.versionsFrom('1.8');
   api.use('ecmascript');
   api.use('tracker');
-  api.use('svelte:compiler@3.16.4_1');
+  api.use('svelte:compiler@4.0.0-beta.1');
   api.use('reactive-var', {weak: true});
   api.use('session', 'client', {weak: true});
   api.use('mongo', {weak: true});
